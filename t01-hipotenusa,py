@@ -1,0 +1,12 @@
+#hipotenusa = raizcuadrada( longlado1 * lognlado1 + longlado2 * longlado2 )
+
+import os; os.system('cls')
+import math
+
+print('Calculando la hipotenusa de un triangulo rectangulo\n')
+
+lado1 = float(input('Longitud del lado 1 '))
+lado2 = float(input('Longitud del lado 2 '))
+
+hipotenusa = math.sqrt(lado1*lado1 + lado2*lado2)
+print(f'la hipotenusa es {hipotenusa:.2f}')
