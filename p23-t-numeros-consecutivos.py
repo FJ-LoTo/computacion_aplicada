@@ -13,3 +13,4 @@ if valida == 2:
         print(f'son consecutivos')
 else:
         print(f'no son consecutivos')
+

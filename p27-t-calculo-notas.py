@@ -17,3 +17,4 @@ elif promedio>=8 and promedio<9:
         print(f'excelente, sigue así')
 elif promedio>=9 and promedio<=10:
         print(f'Perfecto, tu esfuerzo valió la pena')
+        

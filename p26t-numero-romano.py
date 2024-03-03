@@ -28,3 +28,4 @@ elif n1==10:
         print(f'X')
 else:
         print(f'{n1} es invalido')
+    
