@@ -19,39 +19,39 @@ while(True):
     cantidad = int(input('Cantidad? '))
 
     if usuario == 1 and paquete == 1:
-        subtotal = p1*pp1; total = (1-d1)*subtotal
+        subtotal = (p1+pp1)*cantidad; total = (1-d1)*subtotal
         print(f'Tu pedido fue: {cantidad}, tipo de usuario: Alumno, Tipo de paquete: Conferencias')
         print(f'Subtotal: ${subtotal} con un descuento {d1*100}% y un total de ${total} ')
     elif usuario == 1 and paquete == 2:
-        subtotal = p1*pp2; total = (1-d1)*subtotal
+        subtotal = (p1+pp2)*cantidad; total = (1-d1)*subtotal
         print(f'Tu pedido fue: {cantidad}, tipo de usuario: Alumno, Tipo de paquete: Con eventos sociales')
         print(f'Subtotal: ${subtotal} con un descuento {d1*100}% y un total de ${total} ')
     elif usuario == 1 and paquete == 3:
-        subtotal = p1*pp3; total = (1-d1)*subtotal
+        subtotal = (p1+pp3)*cantidad; total = (1-d1)*subtotal
         print(f'Tu pedido fue: {cantidad}, tipo de usuario: Alumno, Tipo de paquete: Con kit de acceso')
         print(f'Subtotal: ${subtotal} con un descuento {d1*100}% y un total de ${total} ')
     elif usuario == 2 and paquete == 1:
-        subtotal = p2*pp1; total = (1-d2)*subtotal
+        subtotal = (p2+pp1)*cantidad; total = (1-d2)*subtotal
         print(f'Tu pedido fue: {cantidad}, tipo de usuario: Trabajador, Tipo de paquete: Conferencias')
         print(f'Subtotal: ${subtotal} con un descuento {d2*100}% y un total de ${total} ')
     elif usuario == 2 and paquete == 2:
-        subtotal = p2*pp2; total = (1-d2)*subtotal
+        subtotal = (p2+pp2)*cantidad; total = (1-d2)*subtotal
         print(f'Tu pedido fue: {cantidad}, tipo de usuario: Trabajador, Tipo de paquete: Con eventos sociales')
         print(f'Subtotal: ${subtotal} con un descuento {d2*100}% y un total de ${total} ')
     elif usuario == 2 and paquete == 3:
-        subtotal = p2*pp3; total = (1-d2)*subtotal
+        subtotal = (p2+pp3)*cantidad; total = (1-d2)*subtotal
         print(f'Tu pedido fue: {cantidad}, tipo de usuario: Trabajador, Tipo de paquete: Con kit de acceso')
         print(f'Subtotal: ${subtotal} con un descuento {d2*100}% y un total de ${total} ')
     elif usuario == 3 and paquete == 1:
-        subtotal = p3*pp1; total = (1-d3)*subtotal
+        subtotal = (p3+pp1)*cantidad; total = (1-d3)*subtotal
         print(f'Tu pedido fue: {cantidad}, tipo de usuario: Docente, Tipo de paquete: Conferencias')
         print(f'Subtotal: ${subtotal} con un descuento {d3*100}% y un total de ${total} ')
     elif usuario == 3 and paquete == 2:
-        subtotal = p3*pp2; total = (1-d3)*subtotal
+        subtotal = (p3+pp2)*cantidad; total = (1-d3)*subtotal
         print(f'Tu pedido fue: {cantidad}, tipo de usuario: Docente, Tipo de paquete: Con eventos sociales')
         print(f'Subtotal: ${subtotal} con un descuento {d3*100}% y un total de ${total} ')
     elif usuario == 3 and paquete == 3:
-        subtotal = p3*pp3; total = (1-d3)*subtotal
+        subtotal = (p3+pp3)*cantidad; total = (1-d3)*subtotal
         print(f'Tu pedido fue: {cantidad}, tipo de usuario: Docente, Tipo de paquete: Con kit de acceso')
         print(f'Subtotal: ${subtotal} con un descuento {d3*100}% y un total de ${total} ')
 
