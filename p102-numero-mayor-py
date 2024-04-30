@@ -1,0 +1,19 @@
+import os;
+def mayor(c1,c2,c3):
+    may = 0
+    if c1>c2 and c1>c3:
+        may = c1
+    elif c2>c1 and c2>c3:
+        may = c2
+    elif c3>c1 and c3>c1:
+        may = c3
+    return may
+
+os.system('cls')
+#print(mayor(100,100,100))
+a,b,c = float(input(), float(input), float(input()))
+r = mayor(a,b,c)
+if r==0:
+    print('lascalificaciones son iguales')
+else:
+    print(f'la calificacio mayoe es {r}')
