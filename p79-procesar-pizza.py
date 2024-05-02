@@ -14,5 +14,6 @@ st = st+base
 if st>=20:
     tot = st-(st*0.05)
 
+
 print(f'el subtotal es {st}')
-print(f'\nel total es {tot}')
+print(f'\nel total es {tot}') 
