@@ -22,4 +22,3 @@ for auto in autos:
     for k,v in auto.items():
         print(f"{k:<12} : {v}")
     print()
-    
